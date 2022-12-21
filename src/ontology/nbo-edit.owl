@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
      xml:base="http://purl.obolibrary.org/obo/nbo.owl"
+     xmlns:cl="http://purl.obolibrary.org/obo/cl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -20,6 +21,7 @@
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo.owl">
@@ -624,14 +626,27 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time.&quot; [GO:jic]</obo:IAO_0000115>
+        <obo:IAO_0000115>A mental phenomenon that acquires knowledge.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>learning and/or memory behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0007611</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning and/or memory behavior</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mental phenomenon that acquires knowledge.</owl:annotatedTarget>
+        <oboInOwl:note>https://www.apa.org/topics/learning-memory</oboInOwl:note>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information behavior</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Information</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -863,14 +878,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
-        <obo:IAO_0000115>&quot;Behavior associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.&quot; [wikipedia:Learning]</obo:IAO_0000115>
+        <obo:IAO_0000115>Acquiring knowledge that is experienced.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>learning behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0007612</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Acquiring knowledge that is experienced.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Learning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3382,14 +3404,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
-        <obo:IAO_0000115>&quot;Behavior related with the ability of an organism&apos;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Acquiring knowledge that is retained.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:49:03Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>memory behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0007613</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Acquiring knowledge that is retained.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Memory</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -5177,12 +5206,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-        <obo:IAO_0000115>&quot;Behavior related to one or more capacities of the mind.&quot; [wikipedia:Intelligence]</obo:IAO_0000115>
+        <obo:IAO_0000115>A mental phenomenon that applies knowledge.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:30:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from intelligence</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intelligent behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mental phenomenon that applies knowledge.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Intelligence</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -5190,12 +5226,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
-        <obo:IAO_0000115>&quot;Behavior stemming from the ability to identify, assess, and control the emotions of oneself, of others, and of groups.&quot; [wikipedia:Emotional_intelligence]</obo:IAO_0000115>
+        <obo:IAO_0000115>Applying knowledge that manages mood.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:30:47Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from emotional intelligence</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000294"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Applying knowledge that manages mood.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Emotional_intelligence</oboInOwl:note>
+        <oboInOwl:remark>Of oneself, others, or groups.</oboInOwl:remark>
+    </owl:Axiom>
     
 
 
@@ -5230,12 +5274,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
-        <obo:IAO_0000115>&quot;Behavior associated with problem finding and problem shaping.&quot; [wikipedia:Problem_solving]</obo:IAO_0000115>
+        <obo:IAO_0000115>Applying knowledge that overcomes an obstacle.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:31:35Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from problem solving</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000297"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Applying knowledge that overcomes an obstacle.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Problem_solving</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -5244,12 +5295,20 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000612"/>
-        <obo:IAO_0000115>&quot;Behavior stemming from intelligence associated with the capacity of conveying information. (Example: behavior adaptation in chimpanzees in order to communicate with humans.)&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Applying knowledge that conveys meaning.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:31:52Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from communication intelligence</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000298"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Applying knowledge that conveys meaning.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Communication</oboInOwl:note>
+        <oboInOwl:remark>Example: behavior adaptation in chimpanzees in order to communicate with humans. [NBO:GVG]</oboInOwl:remark>
+    </owl:Axiom>
     
 
 
@@ -10185,12 +10244,19 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000607">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behaviour related to cognitive processes.&quot; [NBO:JH]</obo:IAO_0000115>
+        <obo:IAO_0000115>An action, reaction, or performance that is a mental phenomenon.</obo:IAO_0000115>
         <dc:date>2011-04-14T03:51:13Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An action, reaction, or performance that is a mental phenomenon.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Mind</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -10402,12 +10468,19 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000619">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
-        <obo:IAO_0000115>&quot;Behavior stemming from understanding of a specific cause and effect in a specific context.&quot; [wikipedia:Insight]</obo:IAO_0000115>
+        <obo:IAO_0000115>Applying knowledge that contextualises cause and effect.</obo:IAO_0000115>
         <dc:date>2011-04-14T04:57:19Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from insight</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000619"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Applying knowledge that contextualises cause and effect.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Insight</oboInOwl:note>
+    </owl:Axiom>
     
 
 
