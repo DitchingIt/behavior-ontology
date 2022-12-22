@@ -4036,18 +4036,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <obo:IAO_0000115>A consequence that is a negative reinforcement.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:01:08Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:comment>This is probably a type of operant conditioning: https://en.wikipedia.org/wiki/Avoidance_learning</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>This is probably a type of operant conditioning: https://en.wikipedia.org/wiki/Avoidance_learning</owl:annotatedTarget>
-        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
-    </owl:Axiom>
     
 
 
@@ -4167,10 +4163,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <obo:IAO_0000115>&quot;Avoidance learning when the action occurs.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A negative reinforcement that prevents a stimulus by action.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:22:16Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Avoidance_learning</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active avoidance learning behavior</rdfs:label>
     </owl:Class>
     
@@ -4180,10 +4178,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <obo:IAO_0000115>&quot;Avoidance learning when no action occurs.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A negative reinforcement that prevents a stimulus by inaction.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:22:53Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Avoidance_learning</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passive avoidance learning behavior</rdfs:label>
     </owl:Class>
     
@@ -4193,10 +4193,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <obo:IAO_0000115>&quot;Avoid a situation completely.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A negative reinforcement that manages a stimulus by retreat.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:25:10Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Avoidance_learning</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">escape learning behavior</rdfs:label>
     </owl:Class>
     
