@@ -3984,7 +3984,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is transferred with the different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is transferred with a different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T08:57:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3996,7 +3996,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is transferred with the different stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is transferred with a different stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Classical_conditioning</oboInOwl:note>
     </owl:Axiom>
     
@@ -4069,7 +4069,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is a consequence of the different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is a consequence of a different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:05:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4083,7 +4083,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is a consequence of the different stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is a consequence of a different stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Operant_conditioning</oboInOwl:note>
     </owl:Axiom>
     
@@ -4206,12 +4206,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>&quot;The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.&quot; [wikipedia:Social_conditioning]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is socially approved to a different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:34:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social learning</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A response that is socially approved to a different stimulus.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Social_conditioning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
