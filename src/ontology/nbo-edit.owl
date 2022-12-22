@@ -4041,7 +4041,7 @@
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:comment>This is probably a type of operant conditioning: https://en.wikipedia.org/wiki/Avoidance_learning</rdfs:comment>
+        <rdfs:comment>This is probably a type of operant conditioning, and the definition follows on from it: https://en.wikipedia.org/wiki/Avoidance_learning</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
     </owl:Class>
     
@@ -4051,13 +4051,23 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
+        <obo:IAO_0000115>A flavour that is avoided.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:04:57Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>Garcia conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Conditioned_taste_aversion</oboInOwl:note>
         <oboInOwl:xref>GO:0001661</oboInOwl:xref>
+        <rdfs:comment>This is systematically probably a sub-branch of a missing intermediate branch termed &apos;taste conditioning&apos;. The concept of &apos;conditioned flavor preference&apos; as opposed to &apos;aversion&apos; confirms this, although the mechanism of both may be less behavioural and more physiological. NB: The aversion definition reflects the missing link: &quot;A transferee that is a flavour.&quot;</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned taste aversion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000211"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>This is systematically probably a sub-branch of a missing intermediate branch termed &apos;taste conditioning&apos;. The concept of &apos;conditioned flavor preference&apos; as opposed to &apos;aversion&apos; confirms this, although the mechanism of both may be less behavioural and more physiological. NB: The aversion definition reflects the missing link: &quot;A transferee that is a flavour.&quot;</owl:annotatedTarget>
+        <oboInOwl:note>https://www.cell.com/neuron/fulltext/S0896-6273(08)00119-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627308001190%3Fshowall%3Dtrue</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -4258,9 +4268,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <obo:IAO_0000115>A transferee that is a location.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:40:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>This is probably a type of classical conditioning, and the definition reflects this: https://en.wikipedia.org/wiki/Conditioned_place_preference</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned place preference behavior</rdfs:label>
     </owl:Class>
     
