@@ -3427,15 +3427,22 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
-        <obo:IAO_0000115>&quot;Learning by associating a stimulus (the cause) with a particular outcome (the effect).&quot; [Wikipedia:Learning#Associative_learning]</obo:IAO_0000115>
+        <obo:IAO_0000115>Experience that different stimuli have convergent responses.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:49:32Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>conditional learning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0008306</oboInOwl:xref>
         <rdfs:comment>The formation of associations among stimuli and responses.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative learning behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Experience that different stimuli have convergent responses.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Learning#Associative_learning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3543,15 +3550,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
-        <obo:IAO_0000115>&quot;A decrease in a behavioral response to a repeated stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Experience that similar stimuli have divergent responses.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:18:40Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>nonassociative learning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>unconditional response</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0046958</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-associative learning</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Experience that similar stimuli have divergent responses.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Learning#Non-associative_learning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3559,13 +3573,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
-        <obo:IAO_0000115>&quot;Gradual decrease in behavioral responses with repeated encounters of a particular stimulus, which proves of no consequence.&quot; [wikipedia:Habituation]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to a similar stimulus that decreases.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:19:06Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>GO:0046959</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">habituation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A response to a similar stimulus that decreases.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Habituation</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3573,12 +3594,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
-        <obo:IAO_0000115>&quot;An increase in behavioral responses following repeated applications of a particular stimulus.&quot; [wikipedia:Sensitization]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to a similar stimulus that increases.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:54:55Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensitization</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000179"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A response to a similar stimulus that increases.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Sensitization</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3940,8 +3968,15 @@
         <dc:date>2011-04-02T09:07:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>This may not be a form of Non-associative learning; it may even not be a behavioural process but a physiological one: https://en.wikipedia.org/wiki/Neural_adaptation#Habituation_vs._adaptation</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory adaptation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000207"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>This may not be a form of Non-associative learning; it may even not be a behavioural process but a physiological one: https://en.wikipedia.org/wiki/Neural_adaptation#Habituation_vs._adaptation</owl:annotatedTarget>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+    </owl:Axiom>
     
 
 
@@ -3949,14 +3984,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>&quot;A form of associative learning that requires an unconditional reflex, where an unconditional stimulus (US)brings about an automatic, unlearned (unconditional) response (UR). If a neutral stimulus (NS) tends to precede it, an association is made and the conditional response (CR) becomes transferred onto the (previously neutral) conditional strimulus (CS); a conditional reflex has been learned.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is transferred with the different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T08:57:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>Pavlovian conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>respondent conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classical conditioning</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A response that is transferred with the different stimulus.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Classical_conditioning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3997,8 +4039,15 @@
         <dc:date>2011-04-03T09:01:08Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>This is probably a type of operant conditioning: https://en.wikipedia.org/wiki/Avoidance_learning</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>This is probably a type of operant conditioning: https://en.wikipedia.org/wiki/Avoidance_learning</owl:annotatedTarget>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+    </owl:Axiom>
     
 
 
@@ -4020,9 +4069,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>&quot;Operant conditioning is the use of a behavior&apos;s antecedent and/or its consequence to influence the occurrence and form of behavior.&quot; [wikipedia:Operant_conditioning]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is a consequence of the different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:05:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>instrumental conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>instrumental learning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -4030,6 +4080,12 @@
         <rdfs:comment>Operant conditioning is distinguished from classical conditioning in that operant conditioning deals with the modification of &quot;voluntary behavior&quot; or operant behavior.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operant conditioning behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A response that is a consequence of the different stimulus.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Operant_conditioning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -4095,8 +4151,15 @@
         <dc:date>2011-04-03T09:11:44Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>This seems to be an orphan; it also has no definition.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">language learning behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>This seems to be an orphan; it also has no definition.</owl:annotatedTarget>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+    </owl:Axiom>
     
 
 
@@ -5211,7 +5274,7 @@
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intelligent behavior</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intelligence behavior</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
