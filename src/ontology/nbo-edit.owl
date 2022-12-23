@@ -3984,7 +3984,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is transferred with a different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is transferred from a different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T08:57:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3996,7 +3996,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is transferred with a different stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is transferred from a different stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Classical_conditioning</oboInOwl:note>
     </owl:Axiom>
     
@@ -4128,8 +4128,33 @@
         <oboInOwl:hasExactSynonym>modeling</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>vicarious learning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>Albert Bandura says, &quot;In the social learning system, new patterns of behavior can be acquired through direct experience or by observing the behavior of others.&quot; Contrasting the two, he notes that, &quot;direct experience is largely governed by the rewarding and punishing consequences that follow any given action,&quot; whereas, &quot;observers acquire mainly symbolic representations of modeled activities rather than specific stimulus-response associations.&quot;
+
+Cecelia Heyes says, &quot;The term social learning refers to learning that is influenced by observation of, or interaction with, another animal or its products.&quot; She goes on to note that,  &quot;The complementary set... &apos;asocial learning&apos;... does not involve social interaction.&quot;
+
+In conclusion:
+(BANDURA) Non-observational learning is largely a form of operant conditioning.
+(HEYES) Social learning involves interaction (i.e. her use of &apos;or&apos; does not imply &apos;interactional learning&apos; is distinct from &apos;observational learning&apos;.)
+
+Therefore in the absence of other distinct forms of social learning, observational learning is by default its synonym, not a sub-category.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observational learning</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000215"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Albert Bandura says, &quot;In the social learning system, new patterns of behavior can be acquired through direct experience or by observing the behavior of others.&quot; Contrasting the two, he notes that, &quot;direct experience is largely governed by the rewarding and punishing consequences that follow any given action,&quot; whereas, &quot;observers acquire mainly symbolic representations of modeled activities rather than specific stimulus-response associations.&quot;
+
+Cecelia Heyes says, &quot;The term social learning refers to learning that is influenced by observation of, or interaction with, another animal or its products.&quot; She goes on to note that,  &quot;The complementary set... &apos;asocial learning&apos;... does not involve social interaction.&quot;
+
+In conclusion:
+(BANDURA) Non-observational learning is largely a form of operant conditioning.
+(HEYES) Social learning involves interaction (i.e. her use of &apos;or&apos; does not imply &apos;interactional learning&apos; is distinct from &apos;observational learning&apos;.)
+
+Therefore in the absence of other distinct forms of social learning, observational learning is by default its synonym, not a sub-category.</owl:annotatedTarget>
+        <oboInOwl:source>Bandura A, Walters RH. Social learning theory. Prentice Hall: Englewood cliffs; 1977 Oct.
+
+Heyes CM. Social learning in animals: categories and mechanisms. Biological Reviews. 1994 May;69(2):207-31.</oboInOwl:source>
+    </owl:Axiom>
     
 
 
@@ -4218,7 +4243,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is socially approved to a different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is modeled on a different stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:34:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4228,8 +4253,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is socially approved to a different stimulus.</owl:annotatedTarget>
-        <oboInOwl:note>https://en.wikipedia.org/wiki/Social_conditioning</oboInOwl:note>
+        <owl:annotatedTarget>A response that is modeled on a different stimulus.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Social_learning_theory</oboInOwl:note>
     </owl:Axiom>
     
 
