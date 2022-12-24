@@ -3427,7 +3427,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
-        <obo:IAO_0000115>Experience that different stimuli have convergent responses.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experience that particular stimuli have convergent responses.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:49:32Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3440,7 +3440,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Experience that different stimuli have convergent responses.</owl:annotatedTarget>
+        <owl:annotatedTarget>Experience that particular stimuli have convergent responses.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Learning#Associative_learning</oboInOwl:note>
     </owl:Axiom>
     
@@ -3550,7 +3550,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
-        <obo:IAO_0000115>Experience that similar stimuli have divergent responses.</obo:IAO_0000115>
+        <obo:IAO_0000115>Experience that particular stimuli have divergent responses.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:18:40Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3563,7 +3563,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Experience that similar stimuli have divergent responses.</owl:annotatedTarget>
+        <owl:annotatedTarget>Experience that particular stimuli have divergent responses.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Learning#Non-associative_learning</oboInOwl:note>
     </owl:Axiom>
     
@@ -3984,7 +3984,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is transferred from a different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that transfers from a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T08:57:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3996,7 +3996,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is transferred from a different stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that transfers from a particular stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Classical_conditioning</oboInOwl:note>
     </owl:Axiom>
     
@@ -4026,6 +4026,9 @@
         <obo:IAO_0000115>&quot;A type of associative learning that allows organisms to acquire affective responses, such as fear, in situations where a particular context or stimulus is predictably elicits fear via an aversive context.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-03T08:58:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>cued conditioning</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cued fear conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear conditioning</rdfs:label>
     </owl:Class>
@@ -4035,13 +4038,15 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <obo:IAO_0000115>A consequence that is a negative reinforcement.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:01:08Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:comment>This is probably a type of operant conditioning, and the definition follows on from it: https://en.wikipedia.org/wiki/Avoidance_learning</rdfs:comment>
+        <rdfs:comment>This is probably a type of operant conditioning, and the definition follows on from it: https://en.wikipedia.org/wiki/Avoidance_learning
+
+NB: Learned helplessness may be the missing fourth option (a negative reinforcement that manages a stimulus by inaction).</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
     </owl:Class>
     
@@ -4075,7 +4080,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000212">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is a consequence of a different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is a consequence of a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:05:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4089,7 +4094,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is a consequence of a different stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is a consequence of a particular stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Operant_conditioning</oboInOwl:note>
     </owl:Axiom>
     
@@ -4099,9 +4104,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <obo:IAO_0000115>A response that prefers a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-03T09:08:06Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Imprinting_(psychology)</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imprinting behavior</rdfs:label>
     </owl:Class>
     
@@ -4228,7 +4236,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
-        <obo:IAO_0000115>A negative reinforcement that manages a stimulus by retreat.</obo:IAO_0000115>
+        <obo:IAO_0000115>A negative reinforcement that manages a stimulus by action.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:25:10Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4243,7 +4251,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is modeled on a different stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is modeled on a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:34:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4253,7 +4261,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is modeled on a different stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is modeled on a particular stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Social_learning_theory</oboInOwl:note>
     </owl:Axiom>
     
@@ -4292,13 +4300,13 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
     <!-- http://purl.obolibrary.org/obo/NBO_0000222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000222">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <obo:IAO_0000115>A transferee that is a location.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:40:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:comment>This is probably a type of classical conditioning, and the definition reflects this: https://en.wikipedia.org/wiki/Conditioned_place_preference</rdfs:comment>
+        <rdfs:comment>This is a type of classical conditioning, and the definition reflects this: https://en.wikipedia.org/wiki/Conditioned_place_preference</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned place preference behavior</rdfs:label>
     </owl:Class>
     
@@ -4308,21 +4316,36 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000223">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <obo:IAO_0000115>A response that anticipates a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:42:37Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Luyten L, Vansteenwegen D, van Kuyck K, Gabriëls L, Nuttin B. Contextual conditioning in rats as an animal model for generalized anxiety disorder. Cognitive, affective, &amp; behavioral neuroscience. 2011 Jun;11(2):228-44.</oboInOwl:source>
+        <rdfs:comment>Wikipedia equates this to (Pavlovian) &apos;fear conditioning&apos;, whereas Laura Luyten et al relate &apos;contextual conditioning&apos; to anxiety in contrast to what they call (Classical) &apos;cued fear conditioning&apos;. This second approach affirms that fear and anxiety mechanisms differ; there is a leaf for fear conditioning in the classical conditioning branch.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contextual conditioning behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000223"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>Wikipedia equates this to (Pavlovian) &apos;fear conditioning&apos;, whereas Laura Luyten et al relate &apos;contextual conditioning&apos; to anxiety in contrast to what they call (Classical) &apos;cued fear conditioning&apos;. This second approach affirms that fear and anxiety mechanisms differ; there is a leaf for fear conditioning in the classical conditioning branch.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Fear_conditioning</oboInOwl:note>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NBO_0000224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000209"/>
         <dc:date>2011-04-04T03:43:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>cued fear conditioning</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fear conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Luyten L, Vansteenwegen D, van Kuyck K, Gabriëls L, Nuttin B. Contextual conditioning in rats as an animal model for generalized anxiety disorder. Cognitive, affective, &amp; behavioral neuroscience. 2011 Jun;11(2):228-44.</oboInOwl:source>
+        <rdfs:comment>This should be subsumed into &apos;fear conditioning&apos;.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cued conditioning behavior</rdfs:label>
     </owl:Class>
     
@@ -10894,9 +10917,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000641">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <obo:IAO_0000115>A response that detects a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-05-06T03:56:31Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Discrimination_learning</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discrimination learning</rdfs:label>
     </owl:Class>
     
