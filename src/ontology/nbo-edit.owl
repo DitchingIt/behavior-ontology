@@ -3542,7 +3542,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>&quot;A behavioral process whose outcome is a relatively long-lasting adaptive behavioral change whereby an organism modifies innate vocalizations to imitate or create new sounds.&quot; [GO:0042297]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that adaptively mimics a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:58:41Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -4260,7 +4260,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is modeled on a particular stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is modeled from a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:34:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4270,7 +4270,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is modeled on a particular stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is modeled from a particular stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Social_learning_theory</oboInOwl:note>
     </owl:Axiom>
     
@@ -4376,10 +4376,14 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
     <!-- http://purl.obolibrary.org/obo/NBO_0000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
+        <obo:IAO_0000115>A consequence that is sub-cortical.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:48:50Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Thompson AK, Pomerantz FR, Wolpaw JR. Operant conditioning of a spinal reflex can improve locomotion after spinal cord injury in humans. Journal of Neuroscience. 2013 Feb 6;33(6):2365-75.</oboInOwl:source>
+        <rdfs:comment>This is probably a type of operant conditioning, and the definition follows from this.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spinal conditioning</rdfs:label>
     </owl:Class>
     
