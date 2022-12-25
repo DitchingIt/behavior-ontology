@@ -3451,9 +3451,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000323"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
+        <obo:IAO_0000115>A dependancy that uses smell.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:54:09Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Davis RL. Olfactory learning. Neuron. 2004 Sep 30;44(1):31-48.</oboInOwl:source>
         <oboInOwl:xref>GO:0008355</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory learning behavior</rdfs:label>
     </owl:Class>
@@ -3465,9 +3468,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
+        <obo:IAO_0000115>A dependancy that uses sight.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:54:15Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Skelhorn J, Rowe C. Cognition and the evolution of camouflage. Proceedings of the Royal Society B: Biological Sciences. 2016 Feb 24;283(1825):20152890.</oboInOwl:source>
         <oboInOwl:xref>GO:0008542</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual learning behavior</rdfs:label>
     </owl:Class>
@@ -3542,10 +3548,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A response that adaptively mimics a particular stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that acoustically mimics a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:58:41Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Vocal_learning</oboInOwl:note>
         <oboInOwl:xref>GO:0042297</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocal learning</rdfs:label>
     </owl:Class>
@@ -4029,13 +4037,14 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>&quot;A type of associative learning that allows organisms to acquire affective responses, such as fear, in situations where a particular context or stimulus is predictably elicits fear via an aversive context.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>An affect that expresses an aversive prediction.</obo:IAO_0000115>
         <dc:date>2011-04-03T08:58:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>cued conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cued fear conditioning</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Fear_conditioning</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear conditioning</rdfs:label>
     </owl:Class>
     
@@ -4260,7 +4269,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that is modeled from a particular stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that is modeled for a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:34:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -4270,7 +4279,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A response that is modeled from a particular stimulus.</owl:annotatedTarget>
+        <owl:annotatedTarget>A response that is modeled for a particular stimulus.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Social_learning_theory</oboInOwl:note>
     </owl:Axiom>
     
@@ -4291,18 +4300,43 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>An affect that is triggered.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:36:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>conditioned fear response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>conditioned suppression</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Watson JB, Rayner R. Conditioned emotional reactions. Journal of experimental psychology. 1920 Feb;3(1):1.</oboInOwl:source>
+        <rdfs:comment>This is a type of emotional conditioning and the definition reflects this.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned emotional response</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000221"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>conditioned fear response</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Conditioned_emotional_response#cite_ref-1</oboInOwl:note>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000221"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>conditioned suppression</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Conditioned_emotional_response#cite_ref-1</oboInOwl:note>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000221"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>This is a type of emotional conditioning and the definition reflects this.</owl:annotatedTarget>
+        <oboInOwl:source>Brady JV. The effect of electro-convulsive shock on a conditioned emotional response: the significance of the interval between the emotional conditioning and the electro-convulsive shock. Journal of Comparative and Physiological Psychology. 1952 Feb;45(1):9.</oboInOwl:source>
+        <rdfs:comment>The title alone is sufficient to understand that the emotional response is distinct from, and follows, the emotional conditioning.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -4410,9 +4444,13 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000749"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A transferee that is an eyelid.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:55:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>https://www.sciencedirect.com/science/article/abs/pii/S0166432801004107</oboInOwl:source>
+        <rdfs:comment>Aversive with associated bradycardia.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye blink conditioning behavior</rdfs:label>
     </owl:Class>
     
@@ -4439,9 +4477,13 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A transferee that is a lower jaw.</obo:IAO_0000115>
         <dc:date>2011-04-04T03:57:01Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>https://www.sciencedirect.com/science/article/abs/pii/S0166432801004107</oboInOwl:source>
+        <rdfs:comment>Appetitive with associated tachycardia.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jaw movement conditioning behavior</rdfs:label>
     </owl:Class>
     
@@ -10930,7 +10972,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000641">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that detects a particular stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that depends on a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-05-06T03:56:31Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -13370,8 +13412,10 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A transferee that is an affect.</obo:IAO_0000115>
         <dc:date>2012-03-23T10:05:56Z</dc:date>
         <oboInOwl:created_by>gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional conditioning</rdfs:label>
     </owl:Class>
