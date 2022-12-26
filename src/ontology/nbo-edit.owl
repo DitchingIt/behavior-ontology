@@ -3628,7 +3628,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that predominates before the first recall minimum.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that forms the early phase.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:59:07Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3653,7 +3653,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that predominates between the second and third recall minima.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that initiates the late phase.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:59:10Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3687,7 +3687,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Presenrvation that predominates after the third recall minimum.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that perpetuates the late phase.</obo:IAO_0000115>
         <dc:date>2011-04-01T04:00:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3704,7 +3704,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that predominates between the first and second recall minima.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that bridges early and late phase.</obo:IAO_0000115>
         <dc:date>2011-04-01T04:01:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3722,11 +3722,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000181"/>
-        <obo:IAO_0000115>&quot;Ability to become conscious of, or declare, facts and experiences.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Late phase that is a conscious recollection.</obo:IAO_0000115>
         <dc:date>2011-04-02T07:38:45Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>explicit memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Explicit_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Ability to become conscious of, or declare, facts and experiences.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:comment>Encoded by the hippocampus, entorhinal cortex, and perirhinal cortex but store possibly in the medial temporal lobe.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">declarative memory</rdfs:label>
     </owl:Class>
@@ -3737,10 +3740,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>&quot;Ability to consciously recall knowledge of facts that are independent of a specific time and place.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Conscious recollection that is known.</obo:IAO_0000115>
         <dc:date>2011-04-02T07:40:26Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>&quot;Ability to consciously recall knowledge of facts that are independent of a specific time and place.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:comment>Medial temporal lobe, diencephalon.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semantic memory</rdfs:label>
     </owl:Class>
@@ -3751,10 +3756,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>&quot;Ability to explicitly recall information about a specific event that has occurred at a specific time and place.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Conscious recollection that is remembered.</obo:IAO_0000115>
         <dc:date>2011-04-02T07:41:30Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Episodic_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Ability to explicitly recall information about a specific event that has occurred at a specific time and place.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:comment>Medial temporal lobe, diencephalon.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">episodic memory</rdfs:label>
     </owl:Class>
@@ -3765,13 +3773,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000181"/>
-        <obo:IAO_0000115>&quot;Non-declarative memory type of memory, which does not need to involve conscious awareness in the act of recollection.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Late phase that is an unconscious ability.</obo:IAO_0000115>
         <dc:date>2011-04-02T07:42:37Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasAlternativeId>NBO:0000189</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>implicit memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>procedural memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Implicit_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Non-declarative memory type of memory, which does not need to involve conscious awareness in the act of recollection.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:comment>Encoded and probably stored by the cerebellum and the striatum but store in the amygdala.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-declarative memory</rdfs:label>
     </owl:Class>
@@ -9690,9 +9701,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000555">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
+        <obo:IAO_0000115>Mapping that locates and orients an object.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:10:17Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Baddeley%27s_model_of_working_memory#Visuo-spatial_working_memory</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial working memory</rdfs:label>
     </owl:Class>
     
@@ -9718,13 +9732,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000557">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
-        <obo:IAO_0000115>&quot;A type of memory that allows one to temporarily store and manage information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</obo:IAO_0000115>
         <obo:IAO_0000115>Mapping that relates an object to a layout.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:17:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Spatial_memory#Short-term_spatial_memory</oboInOwl:note>
+        <rdfs:comment>&quot;A type of memory that allows one to temporarily store and manage information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term spatial memory</rdfs:label>
     </owl:Class>
     
@@ -9734,8 +9748,10 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000558">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
+        <obo:IAO_0000116>Is identical to NBO:0000599</obo:IAO_0000116>
         <dc:date>2011-04-14T02:19:43Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term spatial memory</rdfs:label>
     </owl:Class>
@@ -10369,7 +10385,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000599">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
-        <obo:IAO_0000115>Mapping that has a layout and landmark.</obo:IAO_0000115>
+        <obo:IAO_0000115>Mapping that has a layout and landmarks.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:43:30Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
