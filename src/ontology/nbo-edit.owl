@@ -3516,7 +3516,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <obo:IAO_0000115>A response that maps a particular stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response that navigates a particular stimulus.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:57:20Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3653,11 +3653,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>&quot;This type of memory, lasting hours to months, critically depends on a transfer of the information from short term memory using repeated rehearsal.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that predominates between the second and third recall minima.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:59:10Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Intermediate-term_memory</oboInOwl:note>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Long-term_memory</oboInOwl:note>
         <oboInOwl:xref>GO:0007616</oboInOwl:xref>
+        <rdfs:comment>&quot;This type of memory, lasting hours to months, critically depends on a transfer of the information from short term memory using repeated rehearsal.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term memory</rdfs:label>
     </owl:Class>
     
@@ -3667,10 +3671,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>&quot;Report great detail about a complex stimulus immediately following its presentation. This ability forms within a few tens of milliseconds and decays again rapidly within a few hundred milliseconds.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that is momentary and modal.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:59:19Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Sensory_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Report great detail about a complex stimulus immediately following its presentation. This ability forms within a few tens of milliseconds and decays again rapidly within a few hundred milliseconds.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory memory</rdfs:label>
     </owl:Class>
     
@@ -3680,10 +3687,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>&quot;A memory that last for months to lifetime.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Presenrvation that predominates after the third recall minimum.</obo:IAO_0000115>
         <dc:date>2011-04-01T04:00:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>McGaugh JL. Memory--a century of consolidation. Science. 2000 Jan 14;287(5451):248-51.</oboInOwl:note>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Long-term_memory</oboInOwl:note>
+        <rdfs:comment>&quot;A memory that last for months to lifetime.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-lasting memory</rdfs:label>
     </owl:Class>
     
@@ -9691,10 +9702,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000556">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>&quot;A type of memory responsible for recording information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that maps a location.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:14:26Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Spatial_memory</oboInOwl:note>
+        <rdfs:comment>&quot;A type of memory responsible for recording information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial memory</rdfs:label>
     </owl:Class>
     
@@ -9705,9 +9719,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000557">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
         <obo:IAO_0000115>&quot;A type of memory that allows one to temporarily store and manage information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</obo:IAO_0000115>
+        <obo:IAO_0000115>Mapping that relates an object to a layout.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:17:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Spatial_memory#Short-term_spatial_memory</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term spatial memory</rdfs:label>
     </owl:Class>
     
@@ -10352,10 +10369,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000599">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
-        <obo:IAO_0000115>&quot;A type of memory that allows one to store and manage information about one&apos;s environment and its spatial orientation lasting hours to months.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Mapping that has a layout and landmark.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:43:30Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Spatial_memory#Long-term_spatial_memory</oboInOwl:note>
+        <rdfs:comment>&quot;A type of memory that allows one to store and manage information about one&apos;s environment and its spatial orientation lasting hours to months.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term spatial memory</rdfs:label>
     </owl:Class>
     
