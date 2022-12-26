@@ -3404,7 +3404,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
-        <obo:IAO_0000115>Acquiring knowledge that is retained.</obo:IAO_0000115>
+        <obo:IAO_0000115>Acquiring knowledge that is processed.</obo:IAO_0000115>
         <dc:date>2011-04-01T01:49:03Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3416,7 +3416,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Acquiring knowledge that is retained.</owl:annotatedTarget>
+        <owl:annotatedTarget>Acquiring knowledge that is processed.</owl:annotatedTarget>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Memory</oboInOwl:note>
     </owl:Axiom>
     
@@ -5578,11 +5578,14 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
-        <obo:IAO_0000115>&quot;Behavior related with the gradual loss of information and experiences stored in the memory of an organism.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Processing that forgets a construct.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:49:14Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>forgetting</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Forgetting</oboInOwl:note>
+        <rdfs:comment>&quot;Behavior related with the gradual loss of information and experiences stored in the memory of an organism.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory loss behavior</rdfs:label>
     </owl:Class>
     
@@ -5592,9 +5595,12 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
+        <obo:IAO_0000115>Processing that converts a perception into a construct.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:49:41Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Encoding_(memory)</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory encoding behavior</rdfs:label>
     </owl:Class>
     
