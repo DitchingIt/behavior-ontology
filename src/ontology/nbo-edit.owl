@@ -3888,12 +3888,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000307"/>
-        <obo:IAO_0000115>&quot;An implicit memory effect in which exposure to a stimulus influences response to a later stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Recall that is subconsciously prompted.</obo:IAO_0000115>
+        <obo:IAO_0000116>Some classes may be artefacts.</obo:IAO_0000116>
         <dc:date>2011-04-02T08:50:59Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>&quot;An implicit memory effect in which exposure to a stimulus influences response to a later stimulus.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">priming</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>Some classes may be artefacts.</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Priming_(psychology)#Replicability_controversy</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3901,10 +3910,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
+        <obo:IAO_0000115>Prompting that is similar.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:55:04Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>repetition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>repetition priming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Repetition_priming</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct priming</rdfs:label>
     </owl:Class>
     
@@ -3914,12 +3927,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
-        <obo:IAO_0000115>&quot;A type of priming where the prime and the target are from the same semantic category and share features.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Prompting that shares lexical elements.</obo:IAO_0000115>
+        <obo:IAO_0000116>May be a subclass of conceptual priming:</obo:IAO_0000116>
         <dc:date>2011-04-02T08:56:35Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Priming_(psychology)#Semantic</oboInOwl:note>
+        <rdfs:comment>&quot;A type of priming where the prime and the target are from the same semantic category and share features.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semantic priming</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000202"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>May be a subclass of conceptual priming:</owl:annotatedTarget>
+        <oboInOwl:source>https://ui-patterns.com/patterns/priming-effect</oboInOwl:source>
+    </owl:Axiom>
     
 
 
@@ -3927,10 +3950,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
-        <obo:IAO_0000115>&quot;A type of priming where the target is a word that has a high probability of appearing with the prime, and is \&quot;associated\&quot; with it but not necessarily related in semantic features.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Prompting that is correlated.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:57:44Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Priming_(psychology)#Associative_priming</oboInOwl:note>
+        <rdfs:comment>&quot;A type of priming where the target is a word that has a high probability of appearing with the prime, and is \&quot;associated\&quot; with it but not necessarily related in semantic features.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative priming</rdfs:label>
     </owl:Class>
     
@@ -3940,9 +3966,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000204">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
+        <obo:IAO_0000115>Prompting that is coupled.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:58:44Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Response_priming</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response priming</rdfs:label>
     </owl:Class>
     
@@ -3952,10 +3981,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
-        <obo:IAO_0000115>&quot;A type of priming based on the meaning of a stimulus and is enhanced by semantic task.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Prompting that shares meaning.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:59:42Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Priming_(psychology)#Perceptual_and_conceptual_priming</oboInOwl:note>
+        <rdfs:comment>&quot;A type of priming based on the meaning of a stimulus and is enhanced by semantic task.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conceptual priming</rdfs:label>
     </owl:Class>
     
@@ -3966,9 +3998,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
         <obo:IAO_0000115>&quot;A type priming based on the form of the stimulus and is enhanced by the match between the early and later stimuli.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Prompting that shares form.</obo:IAO_0000115>
         <dc:date>2011-04-02T09:00:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>form priming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Priming_(psychology)#Perceptual_and_conceptual_priming</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceptual priming</rdfs:label>
     </owl:Class>
     
@@ -5578,7 +5614,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
-        <obo:IAO_0000115>Processing that forgets a construct.</obo:IAO_0000115>
+        <obo:IAO_0000115>Processing that disrupts a perceptual construct.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:49:14Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -5595,7 +5631,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
-        <obo:IAO_0000115>Processing that converts a perception into a construct.</obo:IAO_0000115>
+        <obo:IAO_0000115>Processing that creates a perceptual construct.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:49:41Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -5610,11 +5646,14 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
-        <obo:IAO_0000115>&quot;Behavior related with the ability of an organism&apos;s ability to store information and experiences.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Processing that preserves a perceptual construct.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:53:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>memory storage behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Storage_(memory)</oboInOwl:note>
+        <rdfs:comment>&quot;Behavior related with an organism&apos;s ability to store information and experiences.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory storage behavior</rdfs:label>
     </owl:Class>
     
@@ -5624,11 +5663,14 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
-        <obo:IAO_0000115>&quot;Behavior related with the ability of an organism&apos;s ability to recall information and experiences.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Processing that recalls a perceptual construct.</obo:IAO_0000115>
         <dc:date>2011-04-04T09:55:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>memory retrieval behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Recall_(memory)</oboInOwl:note>
+        <rdfs:comment>&quot;Behavior related with an organism&apos;s ability to recall information and experiences.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory retrieval behavior</rdfs:label>
     </owl:Class>
     
