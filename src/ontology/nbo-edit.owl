@@ -3628,13 +3628,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>&quot;A type of memory that allows the recall of something from several seconds to as long as a minute.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that predominates before the first recall minimum.</obo:IAO_0000115>
         <dc:date>2011-04-01T03:59:07Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>active memory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Short-term_memory</oboInOwl:note>
         <oboInOwl:xref>GO:0007614</oboInOwl:xref>
+        <rdfs:comment>&quot;A type of memory that allows the recall of something from several seconds to as long as a minute.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-term memory</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#note"/>
+        <owl:annotatedTarget>https://en.wikipedia.org/wiki/Short-term_memory</owl:annotatedTarget>
+        <obo:IAO_0000116>This not the same as working memory.</obo:IAO_0000116>
+    </owl:Axiom>
     
 
 
@@ -3682,11 +3693,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>&quot;A type of memory that allows the recall of something from minutes to several hours.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that predominates between the first and second recall minima.</obo:IAO_0000115>
         <dc:date>2011-04-01T04:01:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>intermediate term memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Intermediate-term_memory</oboInOwl:note>
         <oboInOwl:xref>GO:0072375</oboInOwl:xref>
+        <rdfs:comment>&quot;A type of memory that allows the recall of something from minutes to several hours.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium term memory</rdfs:label>
     </owl:Class>
     
