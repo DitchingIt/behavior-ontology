@@ -3671,7 +3671,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that is momentary and modal.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that is nearly in the moment.</obo:IAO_0000115>
+        <obo:IAO_0000116>Other sensory memory modes:</obo:IAO_0000116>
         <dc:date>2011-04-01T03:59:19Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3680,6 +3681,14 @@
         <rdfs:comment>&quot;Report great detail about a complex stimulus immediately following its presentation. This ability forms within a few tens of milliseconds and decays again rapidly within a few hundred milliseconds.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory memory</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000182"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>Other sensory memory modes:</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Echoic_memory</oboInOwl:note>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Haptic_memory</oboInOwl:note>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Sensory_memory#Proprioceptive_memory</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3704,7 +3713,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that bridges early and late phases.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that bridges the early and late phases.</obo:IAO_0000115>
         <dc:date>2011-04-01T04:01:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3793,11 +3802,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000188"/>
-        <obo:IAO_0000115>&quot;Consolidating a specific motor task into memory through repetition.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Unconscious ability that improves with practice.</obo:IAO_0000115>
         <dc:date>2011-04-02T07:54:40Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>muscle memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Muscle_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Consolidating a specific motor task into memory through repetition.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:comment>Depends on the cerebellum and basal ganglia.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor memory</rdfs:label>
     </owl:Class>
@@ -3807,11 +3819,14 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000181"/>
-        <obo:IAO_0000115>&quot;A type of memory associated with emotional experiences.&quot; [wikipedia:http\://www.scholarpedia.org/article/Emotional_memory]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
+        <obo:IAO_0000115>A construct that is affectively enhanced.</obo:IAO_0000115>
         <dc:date>2011-04-02T07:59:16Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Emotion_and_memory</oboInOwl:note>
+        <rdfs:comment>&quot;A type of memory associated with emotional experiences.&quot; [wikipedia:http\://www.scholarpedia.org/article/Emotional_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional memory</rdfs:label>
     </owl:Class>
     
@@ -3884,16 +3899,24 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>Conscious recollection that is an image.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
+        <obo:IAO_0000115>A construct that is a mental image.</obo:IAO_0000115>
+        <obo:IAO_0000116>Needs a new subclass &apos;visual long-term memory&apos; (to also be a subclass of declarative memory where this class originated).</obo:IAO_0000116>
         <dc:date>2011-04-02T08:33:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasBroadSynonym>mind&apos;s eye</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Visual_memory</oboInOwl:note>
         <rdfs:comment>&quot;Ability to store and retrieve previously experienced visual sensations and perceptions when the stimuli that originally evoked them are no longer present.&quot; [wikipedia:Visual_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual memory</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000196"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>Needs a new subclass &apos;visual long-term memory&apos; (to also be a subclass of declarative memory where this class originated).</owl:annotatedTarget>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Visual_memory#Long_term_visual_memory</oboInOwl:note>
+    </owl:Axiom>
     
 
 
@@ -3901,9 +3924,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000182"/>
+        <obo:IAO_0000115>A moment that is visual.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:37:43Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Iconic_memory</oboInOwl:note>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iconic memory</rdfs:label>
     </owl:Class>
     
@@ -3913,11 +3939,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000182"/>
-        <obo:IAO_0000115>&quot;The ability to recall images, sounds, or objects in memory with extreme precision and in abundant volume.&quot; [wikipedia:Eidetic_memory]</obo:IAO_0000115>
+        <obo:IAO_0000115>A moment that is cross-modally vivid.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:39:24Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym>photographic memory</oboInOwl:hasExactSynonym>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>total recall</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>photographic memory</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Eidetic_memory</oboInOwl:note>
+        <rdfs:comment>&quot;The ability to recall images, sounds, or objects in memory with extreme precision and in abundant volume.&quot; [wikipedia:Eidetic_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eidetic memory</rdfs:label>
     </owl:Class>
     
@@ -3927,14 +3957,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>Conscious recollection that is navigable.</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;Ability to orient oneself in space, to recognize and follow an itinerary, or to recognize familiar places.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000116>Is identical to NBO:0000599.</obo:IAO_0000116>
         <dc:date>2011-04-02T08:42:17Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
-        <oboInOwl:hasExactSynonym>topographical memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:note>https://en.wikipedia.org/wiki/Memory#By_information_type</oboInOwl:note>
-        <rdfs:comment>&quot;Ability to orient oneself in space, to recognize and follow an itinerary, or to recognize familiar places.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topographic memory</rdfs:label>
     </owl:Class>
     
@@ -5703,6 +5731,7 @@ Heyes CM. Social learning in animals: categories and mechanisms. Biological Revi
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
         <obo:IAO_0000115>Processing that preserves a perceptual construct.</obo:IAO_0000115>
+        <obo:IAO_0000116>This branch may benefit from being split into two sub-branches: temporal storage and modal storage.</obo:IAO_0000116>
         <dc:date>2011-04-04T09:53:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -9655,8 +9684,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>Conscious recollection that is familiar.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
+        <obo:IAO_0000115>A construct that is familiar.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:53:29Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -9672,7 +9701,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000550"/>
-        <obo:IAO_0000115>Familiarity that is sustained across contexts.</obo:IAO_0000115>
+        <obo:IAO_0000115>Familiarity that is about appearance.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:56:14Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -9687,8 +9716,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000551"/>
-        <obo:IAO_0000115>Sustainability that involves reconsolidation.</obo:IAO_0000115>
+        <obo:IAO_0000115>An appearance that is consolidated.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:02:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -9703,10 +9733,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000553">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000554"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000551"/>
+        <obo:IAO_0000115>An appearance that is fleeting.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:03:00Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Akirav I, Maroun M. Ventromedial prefrontal cortex is obligatory for consolidation and reconsolidation of object recognition memory. Cerebral cortex. 2006 Dec 1;16(12):1759-65.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term object recognition memory</rdfs:label>
     </owl:Class>
     
@@ -9716,10 +9750,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000554">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000196"/>
+        <obo:IAO_0000115>An image that is fleeting.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:09:28Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual short term memory</rdfs:label>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Visual_memory#Short_term_visual_memory</oboInOwl:note>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term visual memory</rdfs:label>
     </owl:Class>
     
 
@@ -9744,7 +9782,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000556">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that maps a location.</obo:IAO_0000115>
+        <obo:IAO_0000115>A construct that is a mental map.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:14:26Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -9759,6 +9797,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
         <obo:IAO_0000115>Mapping that relates an object to a layout.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:17:28Z</dc:date>
@@ -10412,11 +10451,15 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
         <obo:IAO_0000115>Mapping that has a layout and landmarks.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:43:30Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasAlternativeId>NBO:0000558</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>topographic memory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>topographical memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Spatial_memory#Long-term_spatial_memory</oboInOwl:note>
         <rdfs:comment>&quot;A type of memory that allows one to store and manage information about one&apos;s environment and its spatial orientation lasting hours to months.&quot; [NBO:GVG]</rdfs:comment>
