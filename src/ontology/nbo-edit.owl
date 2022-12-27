@@ -3837,10 +3837,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000192"/>
-        <obo:IAO_0000115>&quot;Remembering to perform an intended action in respect to a particular event.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Planning that is circumstantial.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:19:20Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Prospective_memory#Event-based_vs._time-based</oboInOwl:note>
+        <rdfs:comment>&quot;Remembering to perform an intended action in respect to a particular event.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">event-based prospective memory</rdfs:label>
     </owl:Class>
     
@@ -3850,10 +3853,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000192"/>
-        <obo:IAO_0000115>&quot;Remembering to perform an intended action in respect to a particular time reference.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Planning that is temporal.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:19:37Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Prospective_memory#Event-based_vs._time-based</oboInOwl:note>
+        <rdfs:comment>&quot;Remembering to perform an intended action in respect to a particular time reference.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time-based prospective memory</rdfs:label>
     </owl:Class>
     
@@ -3863,10 +3869,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000187"/>
-        <obo:IAO_0000115>&quot;A type of memory for particular events within one&apos;s own life.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Remembering that is personal.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:27:14Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Autobiographical_memory</oboInOwl:note>
+        <rdfs:comment>&quot;A type of memory for particular events within one&apos;s own life.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autobiographical memory</rdfs:label>
     </owl:Class>
     
@@ -9663,10 +9672,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000550"/>
-        <obo:IAO_0000115>&quot;Ability to perceive the physical properties of an object (such as shape, colour and texture) and apply semantic attributes to the object, which includes the understanding of its use, previous experience with the object and how it relates to others.&quot; [wikipedia:Cognitive_Neuroscience_of_Visual_Object_Recognition]</obo:IAO_0000115>
+        <obo:IAO_0000115>Familiarity that is sustained across contexts.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:56:14Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Object_recognition_(cognitive_science)</oboInOwl:note>
+        <rdfs:comment>&quot;Ability to perceive the physical properties of an object (such as shape, colour and texture) and apply semantic attributes to the object, which includes the understanding of its use, previous experience with the object and how it relates to others.&quot; [wikipedia:Cognitive_Neuroscience_of_Visual_Object_Recognition]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual object recognition</rdfs:label>
     </owl:Class>
     
@@ -9676,10 +9688,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000551"/>
-        <obo:IAO_0000115>&quot;A visual object recognition that lasts hours to months and critically depends on a transfer of the information from short term object recognition memory using repeated rehearsals.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Sustainability that involves reconsolidation.</obo:IAO_0000115>
         <dc:date>2011-04-14T02:02:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Akirav I, Maroun M. Ventromedial prefrontal cortex is obligatory for consolidation and reconsolidation of object recognition memory. Cerebral cortex. 2006 Dec 1;16(12):1759-65.</oboInOwl:source>
+        <rdfs:comment>&quot;A visual object recognition that lasts hours to months and critically depends on a transfer of the information from short term object recognition memory using repeated rehearsals.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term object recognition memory</rdfs:label>
     </owl:Class>
     
