@@ -3704,7 +3704,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
-        <obo:IAO_0000115>Preservation that bridges early and late phase.</obo:IAO_0000115>
+        <obo:IAO_0000115>Preservation that bridges early and late phases.</obo:IAO_0000115>
         <dc:date>2011-04-01T04:01:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -3821,10 +3821,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>&quot;Remembering to perform an intended action.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Conscious recollection of a future plan.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:16:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Prospective_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Remembering to perform an intended action.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prospective memory</rdfs:label>
     </owl:Class>
     
@@ -3873,10 +3876,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>&quot;Ability to store and retrieve previously experienced visual sensations and perceptions when the stimuli that originally evoked them are no longer present.&quot; [wikipedia:Visual_memory]</obo:IAO_0000115>
+        <obo:IAO_0000115>Conscious recollection that is an image.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:33:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Visual_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Ability to store and retrieve previously experienced visual sensations and perceptions when the stimuli that originally evoked them are no longer present.&quot; [wikipedia:Visual_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual memory</rdfs:label>
     </owl:Class>
     
@@ -3912,10 +3918,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>&quot;Ability to orient oneself in space, to recognize and follow an itinerary, or to recognize familiar places.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Conscious recollection that is navigable.</obo:IAO_0000115>
         <dc:date>2011-04-02T08:42:17Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>topographical memory</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Memory#By_information_type</oboInOwl:note>
+        <rdfs:comment>&quot;Ability to orient oneself in space, to recognize and follow an itinerary, or to recognize familiar places.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topographic memory</rdfs:label>
     </owl:Class>
     
@@ -4034,7 +4044,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000200"/>
-        <obo:IAO_0000115>&quot;A type priming based on the form of the stimulus and is enhanced by the match between the early and later stimuli.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:IAO_0000115>Prompting that shares form.</obo:IAO_0000115>
         <dc:date>2011-04-02T09:00:27Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -4042,6 +4051,7 @@
         <oboInOwl:hasExactSynonym>form priming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Priming_(psychology)#Perceptual_and_conceptual_priming</oboInOwl:note>
+        <rdfs:comment>&quot;A type priming based on the form of the stimulus and is enhanced by the match between the early and later stimuli.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perceptual priming</rdfs:label>
     </owl:Class>
     
@@ -9637,10 +9647,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
-        <obo:IAO_0000115>&quot;Ability to correctly remember something that has been encountered before.&quot; [wikipedia:Recognition_memory]</obo:IAO_0000115>
+        <obo:IAO_0000115>Conscious recollection that is familiar.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:53:29Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Recognition_memory</oboInOwl:note>
+        <rdfs:comment>&quot;Ability to correctly remember something that has been encountered before.&quot; [wikipedia:Recognition_memory]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognition memory</rdfs:label>
     </owl:Class>
     
