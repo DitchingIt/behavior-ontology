@@ -946,16 +946,19 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of using body parts to pick at, rub and or remove material from exterior covering, e.g., fur, scales, feathers, skin [NBO:SMAC]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#comforting"/>
+        <obo:IAO_0000115>Comforting that cares for the body surface.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym xml:lang="en">groom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>grooming behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>grooming behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hygiene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ORIGINAL DEFINITION] The act of using body parts to pick at, rub and or remove material from exterior covering, e.g., fur, scales, feathers, skin [NBO:SMAC]</oboInOwl:note>
+        <oboInOwl:source>Spruijt BM, Van Hooff JA, Gispen WH. Ethology and neurobiology of grooming behavior. Physiological reviews. 1992 Jul 1;72(3):825-52.</oboInOwl:source>
         <oboInOwl:xref>GO:0007625</oboInOwl:xref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grooming behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1464,7 +1467,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of dragging claws or nails over a surface [NBO:AC]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -1519,7 +1522,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
         <obo:IAO_0000115>&quot;Behavior related to the washing or cleansing of the body in a fluid, usually water or an aqueous solution.&quot; [wikipedia:Bathing]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -1695,6 +1698,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#comforting"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#sensation_function"/>
         <obo:IAO_0000115>Sensorial action that &quot;is repeated, seemingly non-functional behavior differing from more adaptive versions structurally, contextually, or developmentally, and initiated when the animal is in a relaxed, unstimulating, or low stress setting.&quot;</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
@@ -7621,13 +7625,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000450">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
-        <obo:IAO_0000115>&quot;Behavior related to the activity in which individuals in a group clean or maintain one another&apos;s body or appearance.&quot; [wikipedia:Social_grooming]</obo:IAO_0000115>
+        <obo:IAO_0000115>Grooming that cleans the body of a partner.</obo:IAO_0000115>
         <dc:date>2011-04-08T12:35:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym xml:lang="en">allo-hygiene behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>allogrooming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">allohygiene</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Behavior related to the activity in which individuals in a group clean or maintain one another&apos;s body or appearance.&quot; [wikipedia:Social_grooming]</oboInOwl:note>
+        <oboInOwl:source>Carter G, Leffer L. Social grooming in bats: are vampire bats exceptional?. PLoS One. 2015 Oct 7;10(10):e0138430.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social grooming</rdfs:label>
     </owl:Class>
     
@@ -7637,17 +7644,26 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000451">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
-        <obo:IAO_0000115>&quot;Behavior related to the promotion of personal hygiene.&quot; [wikipedia:Social_grooming]</obo:IAO_0000115>
+        <obo:IAO_0000115>Grooming that cleans an animal&apos;s own body.</obo:IAO_0000115>
         <dc:date>2011-04-08T12:35:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasAlternativeId>NBO:0000058</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>auto-grooming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">autohygiene</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>preening</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>self-grooming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal grooming</rdfs:label>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal grooming</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:note>ORIGINAL DEFINITION] &quot;Behavior related to the promotion of personal hygiene.&quot; [wikipedia:Social_grooming]</oboInOwl:note>
+        <oboInOwl:source>Carter G, Leffer L. Social grooming in bats: are vampire bats exceptional?. PLoS One. 2015 Oct 7;10(10):e0138430.</oboInOwl:source>
+        <rdfs:label>self grooming</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal grooming</owl:annotatedTarget>
+        <obo:IAO_0000116>The term &apos;personal grooming&apos; is generally used with reference to human cosmetic products; scientific sources tend to avoid it with reference to animal behaviour.</obo:IAO_0000116>
+    </owl:Axiom>
     
 
 
@@ -7968,7 +7984,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#morphophysiology_function"/>
-        <obo:IAO_0000115>Morphophysiology that responds to allostatic overload.</obo:IAO_0000115>
+        <obo:IAO_0000115>Neuroendocrine activity that responds to allostatic overload.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -7978,7 +7994,6 @@
         <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.&quot; [wikipedia:Stress_(biological)]</oboInOwl:note>
         <oboInOwl:remark>[ORIGINAL COMMENT] It refers to the consequence of the failure of an organism to respond adequately to mental, emotional or physical demands, whether actual or imagined.</oboInOwl:remark>
         <oboInOwl:source>https://en.wikipedia.org/wiki/Allostasis#Types</oboInOwl:source>
-        <oboInOwl:xref>GO:0006950</oboInOwl:xref>
         <rdfs:label>stressing</rdfs:label>
     </owl:Class>
     
@@ -9437,10 +9452,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000450"/>
-        <obo:IAO_0000115>&quot;Behavior related to the activity in which a mother cleans or maintains the body or the appearance of her offsprings.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Social grooming that is directed by a female towards her offspring.</obo:IAO_0000115>
         <dc:date>2011-04-14T07:58:09Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Behavior related to the activity in which a mother cleans or maintains the body or the appearance of her offsprings.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>Spruijt BM, Van Hooff JA, Gispen WH. Ethology and neurobiology of grooming behavior. Physiological reviews. 1992 Jul 1;72(3):825-52.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal grooming</rdfs:label>
     </owl:Class>
     
@@ -15735,6 +15753,23 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
         <rdfs:label>cognition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#comforting -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#comforting">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#morphophysiology_function"/>
+        <obo:IAO_0000115>Neuroendocrine activity that prevents allostatic overload.</obo:IAO_0000115>
+        <dc:date>2023-02-06</dc:date>
+        <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>comfort behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>maintenance behavior</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:source>Schulkin J. Social allostasis: anticipatory regulation of the internal milieu. Frontiers in evolutionary neuroscience. 2011 Jan 31;2:111.</oboInOwl:source>
+        <rdfs:comment>It could be a reaction to peripheral stimulation. conflict, and disintensitfying activity.</rdfs:comment>
+        <rdfs:label>comforting</rdfs:label>
     </owl:Class>
     
 
